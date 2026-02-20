@@ -8,16 +8,16 @@ html, body {
 
 .App {
   display: flex;
-  justify-content: center; 
-  align-items: center;     
-  height: 100vh;          
-  width: 100vw;            
-  background-color: #1e1e2f; 
-  color: #ffffff;             
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #1e1e2f;
+  color: #ffffff;
 }
 
 .App-content {
-  text-align: center; 
+  text-align: center;
 }
 
 h1 {
@@ -37,17 +37,27 @@ p {
 ul {
   list-style-type: none;
   padding: 0;
-  margin: 0 auto;         
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;   
-  align-items: center;      
+  flex-direction: column;
+  align-items: center;
 }
 
 li {
   margin: 10px 0;
   padding: 10px;
-  background-color: #2e2e50; 
+  background-color: #2e2e50;
   border-radius: 8px;
-  width: 250px;              
-  text-align: center;       
+  width: 250px;
+  text-align: center;
+}
+
+.explicit {
+  color: #ff4c4c;
+  font-weight: bold;
+}
+
+.clean {
+  color: #a0a0a0;
+  font-weight: normal;
 }
